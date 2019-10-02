@@ -1,4 +1,5 @@
 import sys, time
+# NOTE: note sure if anybody else was experiencing this but, I had to manually install libusb using homebrew on macOS (brew install libusb & brew install binutils)
 import usb # pyusb: use 'pip install pyusb' to install this module
 import usb.backend.libusb1
 import libusbfinder
